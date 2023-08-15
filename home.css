@@ -1,0 +1,257 @@
+*{
+  padding:0;
+  margin:0;
+}
+h1 {
+  text-align:center;
+  color:#0000cc;
+  font-size:50px;
+}
+ h3,h2{
+  font-style:normal;	
+  color:#0000cc;
+ }
+body{
+  margin:auto;
+  width:90%;
+  font-family: 'B612', open-sans;
+  font-size: 20px;
+  line-height: 1.8;
+  letter-spacing: 1.75px;
+}
+#pagewraper{
+  padding-right: 5px;
+  padding-left:  5px;
+  padding-bottom: 5px;
+  margin-top:20px;
+ }
+#headerlinks li {
+    display: inline-block;
+    font-size:15px;
+    font-weight: bold;
+	margin-right:10px;
+	margin-left: 10px;
+}
+#headerlinks a{
+  color: #ff8000;
+  text-decoration:none;
+}
+#headerlinks a:hover{
+  background-color:#b8e6ff;
+} 
+
+#primarynav{
+  background-color:#ADEBF1;
+  text-align:center;
+  height: 60%;
+  padding: 1rem;
+  margin:6px;
+  border:2px solid lightgrey;
+}
+#primarynav li {
+  list-style: none;
+  display: inline-block;
+  padding: 4px;
+}
+#primarynav a {
+  color:#033c99;
+  padding:1rem;
+  display:inline-block;
+  border:2px solid grey;
+  text-align:center;
+  min-width:100px;
+  font-size: 20px;
+  text-decoration:none;
+}
+#primarynav a:hover{
+  background-color:  white;
+}
+#primarynav a:active{
+  color: white;
+}
+#maintext p {
+ margin-top: 20px;
+}
+.mainimg {
+  border: 6px solid #ddd;
+  border-radius: 4px;
+  display: block;
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+footer{
+  background-color:#ADEBF1;
+  margin-bottom:auto;
+  border:2px solid lightgrey;
+  text-align:center;
+  margin-top: 1.5rem;
+  padding: 5px;
+  position: relative;
+  clear:both;
+}
+footer li{
+  list-style:none;
+  display: inline-block;
+  padding-top: 1.5rem;
+  margin-right:15px;
+ }
+
+footer a{
+  color:#0000cc;
+}
+footer a:hover{
+ background-color:white;
+}
+
+footer p {
+  text-align:center;
+  color: #0000cc;
+  padding-bottom: 2px;
+}
+
+.meyer{
+  border:1px solid grey;
+  margin-left:20px;
+}
+.alex{ 
+  border:1px solid grey;
+  margin-left:20px;
+}
+
+#review{
+  margin-top:20px; 
+  min-width:350px;
+ }
+
+ #review p{
+  padding-bottom: 20px;
+  border-bottom-style: double;
+  border-bottom-color:#0000cc;
+  }
+#review h3 ,h2,p{
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom:8px;
+}
+
+
+
+.places {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+ }
+	
+.todo {
+  width:310px;
+  margin: 2.05rem;
+  background-color:#ffeecc;
+  padding: 1rem;
+  border: 1px solid lightgrey;
+}
+
+.todo img{
+  display: block;
+  border: 1px solid darkgrey;
+  margin: auto;
+  width: 214px;
+  height:160px;
+}
+.todo h3 {
+  text-align: center;
+  font-style:oblique;	
+  color:#0000cc;
+  padding-bottom : 10px;
+   }
+ .timetable {
+   font-size: 25px;
+   background-color: #c2fffb; 
+	
+ }
+#columncontainer{
+  display: inline-block;
+  margin-top:50px;
+  margin-bottom:20%;
+}
+#secondarynav li{
+  list-style: none;
+  display: block;
+  padding: 4px;
+}
+#secondarynav a {
+  color:#033c99;
+  padding:0.5rem;
+  display:inline-block;
+  border:2px solid lightgrey;
+  text-align:left;
+  min-width:150px;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-top:2px;
+  background-color:#ADEBF1;
+}
+#rightcol {
+  display: inline-block;
+  width: 70%;
+  vertical-align: top;
+  min-width:500px;
+}
+#leftcol {
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+  min-width:200px;
+}
+#tcontent p {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  max-width: 90%;
+  border-bottom-style: double;
+  border-bottom-color:#0000cc;
+}
+#secondarynav a:hover{
+  background-color: white;
+}
+#secondarynav a:active{
+  color: white;
+}
+.icontransport{
+  width:30px;
+}
+.tips{ 
+  padding-top:10px;
+  padding-bottom: 100px;
+  border-bottom-color:#0000cc;
+}
+.tips h3{
+  margin-left:10px;
+}
+
+.travelimg {
+  float: left;
+  margin: 1rem;
+  } 
+
+.tips p{ 
+ text-align: left;
+ float:left;
+ margin-bottom:10px;
+ border-bottom-style: double;
+ border-bottom-color:#0000cc;
+ padding-bottom: auto;
+
+
+ }
+.bold{
+font-style: italic;
+font-weight:bold;
+}
+
+	
+	
+
+
